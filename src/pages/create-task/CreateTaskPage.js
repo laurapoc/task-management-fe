@@ -68,7 +68,7 @@ class CreateTaskPage extends Component {
               label="Description"
               placeholder="Description"
               multiline
-              rows="8"
+              minRows="8"
               margin="normal"
               variant="outlined"
               onChange={e => this.setState({ description: e.target.value })}
